@@ -1,0 +1,52 @@
+/**
+ * Copyright 2021 sfchi
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+ 
+
+ *{
+    box-sizing: border-box;
+}
+
+ body {
+     font-family: 'Ubuntu', sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+ }
+
+ .bg{
+    background: url('https://source.unsplash.com/random/800x600') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(96vw + 100px);
+    height: calc(95vh + 70px);
+    z-index: -1;
+    filter: blur(0px);
+ }
+
+ .loading-text {
+     font-size: 6rem;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+
+
