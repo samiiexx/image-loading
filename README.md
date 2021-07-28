@@ -1,7 +1,7 @@
-# Search Widget
+# Image Loading
 A JavaScript Project from Brad Traversy's 50 Projects in 50 Days. This is project #5 which shows a blurry image loading till its clear.
 
-![Search Widget](screenshot.jpg)
+![Image Loading](screenshot.jpg)
 
 ## Built With
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
